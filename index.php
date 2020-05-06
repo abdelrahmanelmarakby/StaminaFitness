@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Muscle - Free Bootstrap 4 Template by Colorlib</title>
+    <title>Fitness</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -28,37 +28,55 @@
   </head>
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-	    <div class="container">
-	      <a class="navbar-brand py-2 px-4" href="index.html">Muscle</a>
-	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
-	      </button>
-	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="program.html" class="nav-link">Program</a></li>
-	          <li class="nav-item"><a href="coaches.html" class="nav-link">Coaches</a></li>
-	          <li class="nav-item"><a href="schedule.html" class="nav-link">Schedule</a></li>
-	          <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="blog.html" class="nav-link">Journal</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-	        </ul>
-	      </div>
-		  </div>
-	  </nav>
+      <div class="container">
+        <a class="navbar-brand py-2 px-4" href="index.php">Muscle</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="program.php" class="nav-link">Program</a></li>
+            <li class="nav-item"><a href="coaches.php" class="nav-link">Coaches</a></li>
+            <li class="nav-item"><a href="schedule.php" class="nav-link">Schedule</a></li>
+            <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
+            <li class="nav-item active"><a href="blog.php" class="nav-link">Journal</a></li>
+            <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- END nav -->
 
-    <section class="hero-wrap js-fullheight" style="background-image: url('images/bg_2.jpg');">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
-          <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-3 bread">About us</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>About Us</span></p>
+    <section class="home-slider js-fullheight owl-carousel ftco-degree-bottom">
+      <div class="slider-item js-fullheight" style="background-image: url(images/bg_1.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
+
+            <div class="col-sm-6 ftco-animate text-center">
+              <h1 class="mb-4">Fuel Your Body Fitness</h1>
+              <h2 class="subheading">Be One Of Us</h2>
+            </div>
+
           </div>
         </div>
       </div>
-    </section>
+
+      <div class="slider-item js-fullheight" style="background-image: url(images/bg_2.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
+
+            <div class="col-sm-7 ftco-animate text-center">
+              <h1 class="mb-4">Challenge Yourself</h1>
+              <h2 class="subheading">Get Your Body Fit</h2>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section> 
 
     
     <section class="ftco-section-services ftco-degree">
@@ -253,6 +271,141 @@
     	</div>
     </section>
 
+	  <section class="ftco-section">
+	  	<div class="container-fluid">
+	  		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h3 class="subheading">Gym Classes</h3>
+            <h2 class="mb-1">Workout Classes</h2>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-6 col-lg-3">
+        		<div class="package-program ftco-animate">
+        			<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/program-1.jpg);">
+        				<span>Learn More</span>
+        			</a>
+        			<div class="text mt-3">
+        				<h3><a href="#">Body Building</a></h3>
+        				<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-md-6 col-lg-3">
+        		<div class="package-program ftco-animate">
+        			<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/program-2.jpg);">
+        				<span>Learn More</span>
+        			</a>
+        			<div class="text mt-3">
+        				<h3><a href="#">Aerobic Classes</a></h3>
+        				<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-md-6 col-lg-3">
+        		<div class="package-program ftco-animate">
+        			<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/program-3.jpg);">
+        				<span>Learn More</span>
+        			</a>
+        			<div class="text mt-3">
+        				<h3><a href="#">Weight Lifting</a></h3>
+        				<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-md-6 col-lg-3">
+        		<div class="package-program ftco-animate">
+        			<a href="#" class="img d-flex justify-content-center align-items-center" style="background-image: url(images/program-4.jpg);">
+        				<span>Learn More</span>
+        			</a>
+        			<div class="text mt-3">
+        				<h3><a href="#">Yoga Classes</a></h3>
+        				<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+	  	</div>
+	  	<div class="container">
+	  		<div class="row mt-4 justify-content-center ftco-animate">
+        	<div class="col-md-4 text-center">
+        		<a href="#" class="btn-custom py-4">View More Program <span class="ion-ios-arrow-down ml-2"></span></a>
+        	</div>
+        </div>
+	  	</div>
+	  </section>
+
+
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h3 class="subheading">Pricing Tables</h3>
+            <h2 class="mb-1">Membership Plans</h2>
+          </div>
+        </div>
+        <div class="row">
+	        <div class="col-md-4 ftco-animate">
+	          <div class="block-7">
+	            <div class="text-center">
+	            <h2 class="heading">One Day Training</h2>
+	            <span class="price"><sup>$</sup> <span class="number">7</span></span>
+	            <span class="excerpt d-block">100% free. Forever</span>
+	            <a href="#" class="btn btn-primary d-block px-2 py-4 mb-4">Get Started</a>
+	            
+	            <h3 class="heading-2 mb-4">Enjoy All The Features</h3>
+	            
+	            <ul class="pricing-text">
+	              <li>Onetime Access To All Club</li>
+	              <li>Group Trainer</li>
+	              <li>Book A Group Class</li>
+	              <li>Fitness Orientation</li>
+	            </ul>
+	            </div>
+	          </div>
+	        </div>
+	        <div class="col-md-4 ftco-animate">
+	          <div class="block-7">
+	            <div class="text-center">
+	            <h2 class="heading">Pay Every Month</h2>
+	            <span class="price"><sup>$</sup> <span class="number">65</span></span>
+	            <span class="excerpt d-block">All features are included</span>
+	            <a href="#" class="btn btn-primary d-block px-3 py-4 mb-4">Get Started</a>
+	            
+	            <h3 class="heading-2 mb-4">Enjoy All The Features</h3>
+	            
+	            <ul class="pricing-text">
+	              <li>Group Classes</li>
+	              <li>Discuss Fitness Goals</li>
+	              <li>Group Trainer</li>
+	              <li>Fitness Orientation</li>
+	            </ul>
+	            </div>
+	          </div>
+	        </div>
+	        <div class="col-md-4 ftco-animate">
+	          <div class="block-7">
+	            <div class="text-center">
+	            <h2 class="heading">1 Year Membership</h2>
+	            <span class="price"><sup>$</sup> <span class="number">125</span></span>
+	            <span class="excerpt d-block">All features are included</span>
+	            <a href="#" class="btn btn-primary d-block px-3 py-4 mb-4">Get Started</a>
+	            
+	            <h3 class="heading-2 mb-4">Enjoy All The Features</h3>
+	            
+	            <ul class="pricing-text">
+	              <li>Group Classes</li>
+	              <li>Discuss Fitness Goals</li>
+	              <li>Group Trainer</li>
+	              <li>Fitness Orientation</li>
+	            </ul>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+      </div>
+    </section>
+
     <section class="ftco-section testimony-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
@@ -365,6 +518,180 @@
       </div>
     </section>
 
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h3 class="subheading">Articles</h3>
+            <h2 class="mb-1">Recent Blog</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              </a>
+              <div class="text p-4 float-right d-block">
+              	<div class="meta">
+                  <div><a href="#">December 23, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">Young Women Doing Abdominal</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              </a>
+              <div class="text p-4 float-right d-block">
+              	<div class="meta">
+                  <div><a href="#">December 23, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">Young Women Doing Abdominal</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex ftco-animate">
+          	<div class="blog-entry">
+              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              </a>
+              <div class="text p-4 float-right d-block">
+              	<div class="meta">
+                  <div><a href="#">December 23, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-2"><a href="#">Young Women Doing Abdominal</a></h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-appointment">
+			<div class="overlay"></div>
+    	<div class="container-wrap">
+    		<div class="row no-gutters d-md-flex align-items-center">
+    			<div class="col-md-6 d-flex align-self-stretch img" style="background-image: url(images/about-3.jpg);">
+    			</div>
+	    		<div class="col-md-6 appointment ftco-animate">
+	    			<h3 class="mb-3">Book a Appointment</h3>
+	    			<form action="#" class="appointment-form">
+	    				<div class="d-md-flex">
+		    				<div class="form-group">
+		    					<input type="text" class="form-control" placeholder="First Name">
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<input type="text" class="form-control" placeholder="Last Name">
+		    				</div>
+	    				</div>
+	    				<div class="d-md-flex">
+		    				<div class="form-group">
+		    					<div class="input-wrap">
+		            		<div class="icon"><span class="ion-md-calendar"></span></div>
+		            		<input type="text" class="form-control appointment_date" placeholder="Date">
+	            		</div>
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<div class="input-wrap">
+		            		<div class="icon"><span class="ion-ios-clock"></span></div>
+		            		<input type="text" class="form-control appointment_time" placeholder="Time">
+	            		</div>
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<input type="text" class="form-control" placeholder="Phone">
+		    				</div>
+	    				</div>
+	    				<div class="d-md-flex">
+	    					<div class="form-group">
+		              <textarea name="" id="" cols="30" rows="2" class="form-control" placeholder="Message"></textarea>
+		            </div>
+		            <div class="form-group ml-md-4">
+		              <input type="submit" value="Appointment" class="btn btn-primary py-3 px-4">
+		            </div>
+	    				</div>
+	    			</form>
+	    		</div>    			
+    		</div>
+    	</div>
+    </section>
+		
+		<section class="ftco-gallery">
+    	<div class="container-wrap">
+    		<div class="row no-gutters">
+					<div class="col-md-3 ftco-animate">
+						<div class="gallery ftco-gradient d-flex justify-content-center align-items-center">
+							<div class="row justify-content-center">
+			          <div class="col-md-12 heading-section ftco-animate text-center">
+			            <h3 class="subheading">Gallery Photo</h3>
+			            <h2 class="mb-1">Instagram</h2>
+			          </div>
+			        </div>
+		        </div>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/gallery-2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-2.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/gallery-3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-3.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/gallery-4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-4.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/gallery-1.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-5.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/gallery-2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-6.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/gallery-3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-7.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/gallery-4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gallery-8.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+        </div>
+    	</div>
+    </section>
+
+		
+
     <footer class="ftco-footer ftco-section img">
     	<div class="overlay"></div>
       <div class="container">
@@ -433,6 +760,7 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
+
        </div>
         </div>
       </div>

@@ -7,8 +7,6 @@ PHP Version :7.4  .
 
 MySQL and PHPmyadmin.
 
-
-
 #Notes :
 
 if you have faced any problems raise an issue if you liked it please Star it 

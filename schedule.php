@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:100,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
+	<link href="css/table.css" rel="stylesheet">
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
     
@@ -66,179 +66,54 @@
 				<div class="row">
     			<div class="col-md-12 ftco-animate">
     				<div class="sched-list">
-	    				<table class="table">
-						    <thead class="thead-primary">
-						      <tr class="text-center">
-						        <th>&nbsp;</th>
-						        <th>Monday</th>
-						        <th>Tuesday</th>
-						        <th>Wednesday</th>
-						        <th>Thursday</th>
-						        <th>Friday</th>
-						        <th>Saturday</th>
-						        <th>Sunday</th>
-						      </tr>
-						    </thead>
-						    <tbody>
-						      <tr class="text-center">
-						        <td class="color">
-						        	<p class="time">9:00am</p>
-						        </td>
-						        
-						        <td class="color-1">
-						        	<h3><a href="#">Morning Flow</a></h3>
-						        	<span class="at">Advanced Sequence</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-						        
-						        <td class="color-1">
-						        	<h3><a href="#">Cardio Program</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-						        
-						        <td class="color-2">
-						        	<h3><a href="#">Body Building</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-						        
-						        <td class="color-3">
-						        	<h3><a href="#">Bicep Pro</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-					          </td>
-						        
-						        <td class="color-1">
-						        	<h3><a href="#">Leg Strengthening</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-
-						        <td class="color-4">
-						        	<h3><a href="#">Muscle Relax</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-
-						        <td class="color-5">
-						        	<h3><a href="#">Yoga Program</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-						      </tr><!-- END TR-->
-
-						      <tr class="text-center">
-						        <td class="color">
-						        	<p class="time">9:00am</p>
-						        </td>
-						        
-						        <td class="color-1">
-						        </td>
-						        
-						        <td class="color-2">
-						        	<h3><a href="#">Cardio Program</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-						        
-						        <td class="color-3">
-						        	<h3><a href="#">Body Building</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-						        
-						        <td class="color-3">
-					          </td>
-						        
-						        <td class="color-1">
-						        	<h3><a href="#">Leg Strengthening</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-
-						        <td class="color-5">
-						        	<h3><a href="#">Muscle Relax</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-
-						        <td class="color-4">
-						        	<h3><a href="#">Yoga Program</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-						      </tr><!-- END TR-->
-
-						      <tr class="text-center">
-						        <td class="color">
-						        	<p class="time">9:00am</p>
-						        </td>
-						        
-						        <td class="color-3">
-						        	<h3><a href="#">Morning Flow</a></h3>
-						        	<span class="at">Advanced Sequence</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-						        
-						        <td class="color-1">
-						        	<h3><a href="#">Cardio Program</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-						        
-						        <td class="color-2">
-						        	<h3><a href="#">Body Building</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-						        
-						        <td class="color-1">
-						        	<h3><a href="#">Bicep Pro</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-					          </td>
-						        
-						        <td class="color-1">
-						        	<h3><a href="#">Leg Strengthening</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-
-						        <td class="color-4">
-						        	<h3><a href="#">Muscle Relax</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-
-						        <td class="color-5">
-						        	<h3><a href="#">Yoga Program</a></h3>
-						        	<span class="at">Weight Loss</span>
-						        	<p class="time">9:00am - 10:30am</p>
-						        	<span class="trainer">Maricar Collins</span>
-						        </td>
-						      </tr><!-- END TR-->
-
-						    </tbody>
-						  </table>
+	    			<table class="table1">
+	<thead>
+		<tr>
+			<th><h1>Sites</h1></th>
+			<th><h1>Views</h1></th>
+			<th><h1>Clicks</h1></th>
+			<th><h1>Average</h1></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Google</td>
+			<td>9518</td>
+			<td>6369</td>
+			<td>01:32:50</td>
+		</tr>
+		<tr>
+			<td>Twitter</td>
+			<td>7326</td>
+			<td>10437</td>
+			<td>00:51:22</td>
+		</tr>
+		<tr>
+			<td>Amazon</td>
+			<td>4162</td>
+			<td>5327</td>
+			<td>00:24:34</td>
+		</tr>
+    <tr>
+			<td>LinkedIn</td>
+			<td>3654</td>
+			<td>2961</td>
+			<td>00:12:10</td>
+		</tr>
+    <tr>
+			<td>CodePen</td>
+			<td>2002</td>
+			<td>4135</td>
+			<td>00:46:19</td>
+		</tr>
+    <tr>
+			<td>GitHub</td>
+			<td>4623</td>
+			<td>3486</td>
+			<td>00:31:52</td>
+		</tr>
+	</tbody>
+</table>
 					  </div>
     			</div>
     		</div>

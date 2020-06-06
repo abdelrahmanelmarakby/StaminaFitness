@@ -1,0 +1,1 @@
+<footer class="main">Copyright &copy; 2020 <strong>ELMARAKBY </strong></footer>
